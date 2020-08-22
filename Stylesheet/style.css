@@ -13,4 +13,90 @@
 .photos {
     width: 350px;
     height: 350px;
+    padding: 10px;
 }
+
+@media screen and (max-width: 992px) {
+   .main {
+       width: 100%;
+       padding: 25px;
+   }
+
+   .about {
+       width: 100%;
+       padding:25px;
+   }
+   
+   #mimg {
+       padding: 20px;
+   }
+
+   .photos {
+       padding: 20px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .about {
+        width: 100%;
+        padding:25px;
+    }
+
+    #mimg {
+        padding: 20px;
+    }
+
+    .photos {
+        padding: 20px;
+    }
+ }
+
+ @media screen and (max-width: 576px) {
+    .main {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .about {
+        width: 100%;
+        padding:25px;
+    }
+
+    #mimg {
+        padding: 20px;
+    }
+
+    .photos {
+        padding: 20px;
+    }
+ }
+
+ @media screen and (max-width: 350px) {
+    .main {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .about {
+        width: 100%;
+        padding:25px;
+    }
+
+    #mimg {
+        padding: 20px;
+    }
+
+    .photos {
+        padding: 20px;
+    }
+ }
+
+
+
+
+
